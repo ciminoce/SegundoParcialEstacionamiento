@@ -1,0 +1,6 @@
+﻿Auto|ABC 123|Ford|Focus|1
+Moto|A 123 ABC|Suzuki|Tornado|1000
+PickUp|BBC 123|Ford|F100|1000
+Auto|AB 123 AB|Fiat|Fiesta|4
+Moto|A 321 ABC|Honda|Chalita|2000
+PickUp|BBC 321|Chevrolet|Silverado|1000
