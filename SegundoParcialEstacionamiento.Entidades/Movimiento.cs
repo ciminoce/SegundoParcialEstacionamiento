@@ -12,9 +12,21 @@
             }
 
             TimeSpan estadia = HoraSalida.Value - HoraEntrada;
-            return (int)estadia.TotalHours; // Convertimos a horas y retornamos
-        }
 
+            // Aseguramos al menos una hora de estadía
+            int horas = Math.Max(1, (int)estadia.TotalHours);
+
+            /* 
+             * Si la estadía supera 10 minutos adicionales a la hora completa, sumamos una hora más
+             * somos mugres no esperamos mucho
+             */
+            if (estadia > TimeSpan.FromHours(horas) + TimeSpan.FromMinutes(10))
+            {
+                horas++;
+            }
+
+            return horas;
+        }
     }
 
 }

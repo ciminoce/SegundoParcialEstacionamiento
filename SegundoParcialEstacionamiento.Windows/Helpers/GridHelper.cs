@@ -1,6 +1,6 @@
 ﻿using SegundoParcialEstacionamiento.Entidades;
 
-namespace SegundoParcialEstacionamiento.Windows.GridHelper
+namespace SegundoParcialEstacionamiento.Windows.Helpers
 {
     public static class GridHelper
     {
